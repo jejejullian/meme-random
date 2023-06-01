@@ -54,6 +54,20 @@
             left: 50%;
             transform: translate(-50%, -50%);
         }
+        @media only screen and (max-width: 600px) {
+            body {
+                width: auto;
+             
+            }
+  
+            .gallery {
+                grid-template-columns: repeat(2, 1fr); /* Mengatur dua kolom */
+                padding-left: 5px;
+                padding-right: 5px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+        }
     </style>
 </head>
 <body>
